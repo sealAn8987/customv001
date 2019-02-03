@@ -18,6 +18,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    toaddStepOne() {
+      wx.navigateTo({
+        url: '/pages/add_habit_step1/addHabitStep1',
+      })
+    }
   }
 })
